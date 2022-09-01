@@ -1,7 +1,7 @@
 ---
 manufacturer: Dell
-model: S4148T-ON Profile 3
-slug: s4148t-on-profile-3
+model: S4148T-ON Profile 1
+slug: s4148t-on-profile-1
 part_number: S4148T-ON
 u_height: 1
 is_full_depth: true
@@ -14,6 +14,14 @@ power-ports:
   - name: PS2
     type: iec-60320-c14
 interfaces:
+  - name: ethernet1/1/1
+    type: 10gbase-t
+  - name: ethernet1/1/2
+    type: 10gbase-t
+  - name: ethernet1/1/3
+    type: 10gbase-t
+  - name: ethernet1/1/4
+    type: 10gbase-t
   - name: ethernet1/1/5
     type: 10gbase-t
   - name: ethernet1/1/6
@@ -58,10 +66,6 @@ interfaces:
     type: 100gbase-x-qsfp28
   - name: ethernet1/1/26
     type: 100gbase-x-qsfp28
-  - name: ethernet1/1/27
-    type: 40gbase-x-qsfpp
-  - name: ethernet1/1/28
-    type: 40gbase-x-qsfpp
   - name: ethernet1/1/29
     type: 100gbase-x-qsfp28
   - name: ethernet1/1/30
@@ -103,6 +107,10 @@ interfaces:
   - name: ethernet1/1/49
     type: 10gbase-t
   - name: ethernet1/1/50
+    type: 10gbase-t
+  - name: ethernet1/1/51
+    type: 10gbase-t
+  - name: ethernet1/1/52
     type: 10gbase-t
   - name: mgmt1/1/1
     type: 1000base-t

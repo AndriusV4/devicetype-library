@@ -112,6 +112,10 @@ interfaces:
     type: 10gbase-t
   - name: ethernet1/1/52
     type: 10gbase-t
+  - name: ethernet1/1/53
+    type: 10gbase-t
+  - name: ethernet1/1/54
+    type: 10gbase-t
   - name: mgmt1/1/1
     type: 1000base-t
     mgmt_only: true
